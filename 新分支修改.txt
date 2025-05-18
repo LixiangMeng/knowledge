@@ -2,4 +2,4 @@ Git is a distributed version control system.
 Git is free software.
 Git is free software2.
 Git is free software3.
-Git 测试冲突--test修改
+Git 主分支修改
