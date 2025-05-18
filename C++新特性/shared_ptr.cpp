@@ -39,7 +39,7 @@ public:
     }
 
     ~Shared_ptr(){
-        //fetch_sub返回减少之前的值
+        //fetch_sub返回减少之前的�?
         if(count_&&count_->fetch_sub(1)==1){
             delete ptr_;
             delete count_;
@@ -54,7 +54,7 @@ public:
         return *ptr_;
     }
 
-    int use_count() const {
+    int use_count() {
         return count_?count_->load():0;
     }
 };
